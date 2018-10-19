@@ -1,0 +1,44 @@
+{
+  "name": "react-atom-placeholder",
+  "description": "tbw",
+  "version": "0.0.0",
+  "main": "dist/main/index.js",
+  "types": "dist/types/index.d.ts",
+  "module": "dist/module/index.js",
+  "source": "src/index.ts",
+  "repository": "git@github.com:nju33/react-atom-placeholder.git",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": ":",
+    "dev": "docz dev --port 3578",
+    "prepare": "yarn build",
+    "build.main": "tsc -P tsconfig.main.json",
+    "build.module": "tsc -P tsconfig.module.json",
+    "build.types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
+    "build.doc": "yarn docz build -d docs --base /react-atom-placeholder/",
+    "build": "yarn build.main && yarn build.module && yarn build.types"
+  },
+  "devDependencies": {
+    "@geekcojp/prettier-config": "^0.3.0",
+    "@geekcojp/tslint-config": "^0.2.1",
+    "@types/react": "^16.4.18",
+    "@types/styled-components": "^4.0.1",
+    "buble": "0.19.4",
+    "docz": "^0.12.5",
+    "prettier": "^1.14.3",
+    "react": "^16.5.2",
+    "renovate-config-nju33": "^0.0.1",
+    "styled-components": "^4.0.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "styled-components": "^3.0.0"
+  }
+}
