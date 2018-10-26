@@ -30,7 +30,7 @@
     "buble": "0.19.4",
     "docz": "0.12.5",
     "prettier": "1.14.3",
-    "react": "16.5.2",
+    "react": "16.6.0",
     "renovate-config-nju33": "0.0.1",
     "styled-components": "4.0.2",
     "ts-node": "7.0.1",
