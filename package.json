@@ -28,7 +28,7 @@
     "@types/react": "16.7.3",
     "@types/styled-components": "4.0.1",
     "buble": "0.19.6",
-    "docz": "0.12.9",
+    "docz": "0.12.12",
     "prettier": "1.15.2",
     "react": "16.6.1",
     "renovate-config-nju33": "0.0.1",
